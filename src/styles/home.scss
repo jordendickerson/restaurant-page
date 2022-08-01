@@ -1,0 +1,41 @@
+.home{
+    position: relative;
+
+    .background-wrapper{
+        background-image: url('../food.gif');
+        height: 80vh;
+        object-fit: cover;
+        background-size: 100%;
+        background-position: center;
+        box-shadow: inset 0px 8px 32px -2px rgba(0,0,0,0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        filter: brightness(90%);
+
+        
+    }
+    .home-panel{
+        position: absolute;
+        width: 560px;
+        top: 40%;
+        left: calc(50% - 280px);
+        background-color: #0091ff;
+        padding: 25px;
+        border-radius: 10px;
+        color: whitesmoke;
+        text-align: center;
+        box-shadow: 0px 14px 0px 0px rgb(24, 92, 138), 0px 24px 19px 2px rgba(0,0,0,0.91);
+
+        .panel-heading{
+            font-size: 3em;
+            font-weight: 700;
+        }
+        .panel-subtitle{
+            font-size: 1.5em;
+            font-weight: 100;
+        }
+    }
+}
+
+
