@@ -1,0 +1,31 @@
+.menu-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 27px 0px rgba(0,0,0,0.81);
+    background-color: whitesmoke;
+    border: 5px solid black;
+    .left-side{
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0px 0px 0px 5px #0091FF;
+        }
+    }
+    .right-side{
+        display: grid;
+        align-items: center;
+        .menu-item-title{
+            font-size: 2em;
+            font-weight: 700;
+        }
+        .menu-item-description{
+            font-size: 1.2em;
+
+        }
+    }
+}
