@@ -7,6 +7,7 @@ const navBar = () => {
     const navLogo = document.createElement('img');
     navLogo.setAttribute("src", "../src/microfood.svg");
     navLogo.classList.add('logo');
+    navLogo.setAttribute("id", "logo");
 
     //nav wrappers
     const navButtonWrapper1 = document.createElement('div');
@@ -19,11 +20,13 @@ const navBar = () => {
     const menuButton = document.createElement('div');
     menuButton.classList.add('nav-button');
     menuButton.innerText = 'Menu';
+    menuButton.setAttribute("id", "menu-button")
 
     //create about button
     const aboutButton = document.createElement('div');
     aboutButton.classList.add('nav-button');
     aboutButton.innerText = 'About';
+    aboutButton.setAttribute("id", "about-button");
 
     //append nav bar elements to navWrapper
     navWrapper.appendChild(navLogo);

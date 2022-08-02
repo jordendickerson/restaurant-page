@@ -15,12 +15,22 @@ function app(){
     const appContent = document.createElement('div');
     appContent.classList.add('app-content');
 
+    
     app.appendChild(navBar());
     app.appendChild(appContent);
 
-    appContent.appendChild(about());
+    appContent.appendChild(home());
 
     return app;
 }
 
 contentDiv.appendChild(app());
+
+const logo = document.getElementById('logo');
+const menuButton = document.getElementById('menu-button');
+const aboutButton = document.getElementById('about-button');
+const appContent = document.querySelector('.app-content');
+
+logo.addEventListener('click', () => appContent.replaceChildren(home()));
+menuButton.addEventListener('click', () => appContent.replaceChildren(menu()));
+aboutButton.addEventListener('click', () => appContent.replaceChildren(about()));
