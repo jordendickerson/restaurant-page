@@ -3,6 +3,7 @@ import navBar from './navigation/nav-bar';
 import home from './pages/home';
 import menu from './pages/menu';
 import about from './pages/about';
+import footer from './components/footer';
 
 const contentDiv = document.getElementById('content')
 
@@ -20,11 +21,13 @@ function app(){
     app.appendChild(appContent);
 
     appContent.appendChild(home());
+    
 
     return app;
 }
 
 contentDiv.appendChild(app());
+contentDiv.appendChild(footer());
 
 const logo = document.getElementById('logo');
 const menuButton = document.getElementById('menu-button');

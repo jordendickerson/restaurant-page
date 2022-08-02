@@ -27,6 +27,11 @@ body{
     }
 }
 
-.inactive{
-    display: none;
+footer{
+    background-color: #0091ff;
+    color: rgb(66, 66, 66);
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
