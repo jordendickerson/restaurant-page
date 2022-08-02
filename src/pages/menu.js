@@ -7,11 +7,11 @@ const menu = () => {
     menu.classList.add('menu');
 
     const menuLabelWrapper = document.createElement('div');
-    menuLabelWrapper.classList.add('menu-label-wrapper');
+    menuLabelWrapper.classList.add('label-wrapper');
     menu.appendChild(menuLabelWrapper);
 
     const menuLabel = document.createElement('div');
-    menuLabel.classList.add('menu-label');
+    menuLabel.classList.add('label');
     menuLabel.textContent = "Menu";
     menuLabelWrapper.appendChild(menuLabel);
 

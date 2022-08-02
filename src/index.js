@@ -2,6 +2,7 @@ require('./styles/main.scss');
 import navBar from './navigation/nav-bar';
 import home from './pages/home';
 import menu from './pages/menu';
+import about from './pages/about';
 
 const contentDiv = document.getElementById('content')
 
@@ -17,7 +18,7 @@ function app(){
     app.appendChild(navBar());
     app.appendChild(appContent);
 
-    appContent.appendChild(menu());
+    appContent.appendChild(about());
 
     return app;
 }

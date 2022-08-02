@@ -3,23 +3,6 @@
     flex-direction: column;
     justify-content: center;
     padding: 25px;
-
-    .menu-label-wrapper{
-        display: flex;
-        justify-content: center;
-        .menu-label{
-            text-align: center;
-            font-size: 5em;
-            font-weight: 800;
-            margin-top: 50px;
-            padding: 10px;
-            background-color: #0091ff;
-            color: whitesmoke;
-            box-shadow: 0px 14px 0px 0px rgb(24, 92, 138);
-            width: 400px;
-            border-radius: 20px;
-        }
-    }
     
 
     .menu-items{
