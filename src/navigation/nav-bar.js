@@ -5,7 +5,7 @@ const navBar = () => {
 
     //create logo in nav bar
     const navLogo = document.createElement('img');
-    navLogo.setAttribute("src", "../src/microfood.svg");
+    navLogo.setAttribute("src", "./microfood.svg");
     navLogo.classList.add('logo');
     navLogo.setAttribute("id", "logo");
 
